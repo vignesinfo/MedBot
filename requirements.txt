@@ -1,0 +1,12 @@
+streamlit==0.88.0
+numpy==1.25.2
+tensorflow==2.15.0
+nltk==3.8.1
+Pillow==8.4.0
+gtts==2.2.3
+SpeechRecognition==3.8.1
+pydub==0.25.1
+
+
+
+# pip install audio-recorder-streamlit
