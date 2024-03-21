@@ -58,7 +58,7 @@ def predict_class(sentence, model):
 
 def getResponse(ints, intents_json):
     if not ints:
-        return "No response found"
+        return "No response found, Query is not related to the Medical Domain !!!"
     
     tag = ints[0]['intent']
     list_of_intents = intents_json['intents']
