@@ -10,4 +10,3 @@ audio_recorder_streamlit
 
 
 
-# pip install audio-recorder-streamlit
