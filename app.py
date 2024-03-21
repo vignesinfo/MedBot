@@ -11,7 +11,10 @@ import speech_recognition as sr
 import time
 import os
 import json
+!pip install audio_recorder_streamlit
 from audio_recorder_streamlit import audio_recorder
+
+
 
 # Download NLTK resources
 nltk.download('punkt')
