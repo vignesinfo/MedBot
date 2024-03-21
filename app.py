@@ -88,8 +88,8 @@ def speech_to_text(audio_file):
         st.error(f"Could not request results from Google Speech Recognition service; {e}")
 
 # Define correct username and password
-CORRECT_USERNAME = "admin"
-CORRECT_PASSWORD = "password"  # Change this to your desired password
+CORRECT_USERNAME = "medbot"
+CORRECT_PASSWORD = "medbot@123"  # Change this to your desired password
 
 # Set title and separator
 st.title("Medical Assistance ChatBot")
