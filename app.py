@@ -48,7 +48,7 @@ def bow(sentence, words, show_details=True):
 def predict_class(sentence, model):
     p = bow(sentence, words, show_details=False)
     res = model.predict(np.array([p]))[0]
-    ERROR_THRESHOLD = 0.25
+    ERROR_THRESHOLD = 0.75
     results = [[i,r] for i,r in enumerate(res) if r>ERROR_THRESHOLD]
     results.sort(key=lambda x: x[1], reverse=True)
     return_list = []
