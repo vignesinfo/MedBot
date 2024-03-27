@@ -89,7 +89,7 @@ def speech_to_text(audio_file):
 
 # Define correct username and password
 CORRECT_USERNAME = "medbot"
-CORRECT_PASSWORD = "medbot@123"  # Change this to your desired password
+CORRECT_PASSWORD = "medbot@1234"  # Change this to your desired password
 
 # Set title and separator
 st.title("Medical Assistance ChatBot")
